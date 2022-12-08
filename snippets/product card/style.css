@@ -1,0 +1,31 @@
+.sale-info {
+    top: 0;
+    right: 0;
+    font-size: 0.8rem;
+}
+
+.card-action,
+.card-color {
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+
+.card-option {
+    width: 1.5rem;
+    aspect-ratio: 1/1;
+
+}
+
+.card-option img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+.card-image:hover .card-color,
+.card-image:hover .card-action {
+    opacity: 1;
+}
