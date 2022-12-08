@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+
+}
+
+
+.owl-carousel {
+    position: relative;
+}
+
+button.owl-prev,
+button.owl-next {
+    position: absolute;
+    top: 40%;
+
+    font-size: 30px !important;
+    line-height: 0 !important;
+    width: 60px;
+    aspect-ratio: 1/1;
+    border: 1px solid orange !important;
+    border-radius: 50% !important;
+    color: orange !important;
+    padding: 0 !important;
+}
+
+
+
+button.owl-prev {
+    left: 0;
+}
+
+button.owl-next {
+    right: 0;
+}
+
+button.owl-prev:hover,
+button.owl-next:hover {
+    background-color: white !important;
+}
