@@ -1,0 +1,6 @@
+@media (min-width: 992px) {
+    .mega-drop {
+        min-width: 70vw;
+        white-space: no-wrap;
+    }
+}
